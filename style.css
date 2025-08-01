@@ -1,0 +1,22 @@
+/* Global Styles for html, body, and container
+Valencia Walker's for Electrical Engineering-
+ */
+html, body, #cesiumContainer {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  input[type="text"], button {
+      width: 100%;
+  }
+}
